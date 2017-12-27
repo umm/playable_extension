@@ -5,6 +5,7 @@
 # Requirement
 
 * Unity 2017.3
+  * .NET 4.6 (Experimental)
 
 # Install
 
