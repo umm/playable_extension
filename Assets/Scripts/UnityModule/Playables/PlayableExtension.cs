@@ -107,6 +107,10 @@ namespace UnityModule.Playables {
             playableDirector.RebuildGraph();
         }
 
+        public static void SetSpeed(this PlayableDirector playableDirector, int speed, int rootPlayableIndex = 0) {
+            playableDirector.playableGraph.GetRootPlayable(rootPlayableIndex).SetSpeed(speed);
+        }
+
         private static IEnumerable<PlayableBinding> FindAllPlayableBinding(this PlayableAsset playableAsset, Func<string, PlayableAsset, bool> conditionForPlayableAsset = null) {
             return playableAsset
                 .outputs
