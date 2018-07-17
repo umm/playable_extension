@@ -2,9 +2,9 @@
   "name": "@umm/playable_extension",
   "version": "1.2.0",
   "description": "Extension methods for Playable API",
-  "homepage": "https://github.com/umm-projects/playable_extension",
+  "homepage": "https://github.com/umm/playable_extension",
   "bugs": {
-    "url": "https://github.com/umm-projects/playable_extension/issues"
+    "url": "https://github.com/umm/playable_extension/issues"
   },
   "scripts": {
     "umm:init": "umm-init",
@@ -18,14 +18,14 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:umm-projects/playable_extension"
+    "url": "git@github.com:umm/playable_extension"
   },
   "files": [
     "Assets",
     "scripts"
   ],
   "dependencies": {
-    "@umm/scripts": "umm-projects/scripts#^1.0.0"
+    "@umm/scripts": "umm/scripts#^1.0.0"
   },
   "devDependencies": {}
 }
