@@ -10,7 +10,7 @@
 # Install
 
 ```shell
-$ npm install github:umm-projects/playable_extension
+$ npm install github:umm/playable_extension
 ```
 
 # Usage
