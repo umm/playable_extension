@@ -1,6 +1,8 @@
 {
     "name": "umm@playable_extension",
-    "references": [],
+    "references": [
+        "Unity.Timeline"
+    ],
     "optionalUnityReferences": [],
     "includePlatforms": [],
     "excludePlatforms": [],
