@@ -1,6 +1,6 @@
 {
   "name": "@umm/playable_extension",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Extension methods for Playable API",
   "homepage": "https://github.com/umm/playable_extension",
   "bugs": {
